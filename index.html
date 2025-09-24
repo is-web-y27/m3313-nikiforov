@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>SampleStore — онлайн-магазин семплов</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Онлайн-магазин семплов: поиск, прослушивание и лицензирование сэмплов для музыкантов." />
+  <meta name="keywords" content="семплы, лупы, drum kit, sample pack, hip-hop, rnb, pop, лицензия, музыка" />
+</head>
+<body>
+
+<!-- Header -->
+  <header>
+    <div>
+        <a href="/" aria-label="На главную — SampleStore">
+        <img src="logo.png" alt="SampleStore — Логотип" width="120" height="120">
+        </a>
+    </div>
+
+    <nav aria-label="Быстрые ссылки">
+      <ul>
+        <li><a href="#genres">Жанры</a></li>
+        <li><a href="#catalog">Каталог</a></li>
+        <li><a href="#about">О проекте</a></li>
+      </ul>
+    </nav>
+
+    <form role="search" aria-label="Поиск по каталогу">
+      <label for="q">Searchbar</label>
+      <input id="q" name="q" type="search" placeholder="Поиск семплов, авторов, паков" />
+      <button type="submit">Искать</button>
+    </form>
+
+    <nav aria-label="Аутентификация">
+      <ul>
+        <li><a href="#login">Log in</a></li>
+        <li><a href="#signup">Sign up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Main -->
+  <main id="main">
+
+<!-- Hero -->
+    <section aria-labelledby="hero-title">
+      <article>
+        <header>
+          <h1 id="hero-title">Лицензированные семплы для ваших треков</h1>
+          <h2>Открой для себя тысячи высококачественных семплов от лучших артистов. Легально используй в своих произведениях с чистыми лицензиями.</h2>
+        </header>
+        <p>
+          <a href="#catalog" role="button">Слушать семплы</a>
+          <a href="#how" role="button">Как это работает?</a>
+        </p>
+      </article>
+
+      <ul aria-label="Ключевые преимущества">
+        <li>
+          <article>
+            <p>50,000+ Лицензированных семплов</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <p>Все жанры Hip-Hop, R&B, Pop, Jazz и другие</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <p>Коллекции от продюсеров и лейблов.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+<!-- Genres/filters -->
+    <section id="genres" aria-labelledby="genres-title">
+      <h2 id="genres-title">Жанры</h2>
+
+      <nav aria-label="Фильтры по жанрам">
+        <ul>
+          <li><button type="button">Все</button></li>
+          <li><button type="button">Hip-hop</button></li>
+          <li><button type="button">R&amp;B</button></li>
+          <li><button type="button">POP</button></li>
+        </ul>
+      </nav>
+
+      <aside>
+        <p>
+          Совет: используйте фильтры «темп» и «тональность» в каталоге, чтобы быстрее найти нужный луп.
+        </p>
+      </aside>
+    </section>
+
+<!-- Catalog grid -->
+    <section id="catalog" aria-labelledby="catalog-title">
+      <h2 id="catalog-title">Каталог</h2>
+
+      <ul>
+        <!-- Sample card -->
+        <li>
+          <article>
+            <header>
+              <h3>Название</h3>
+            </header>
+            <ul>
+              <li>BPM: 125</li>
+              <li>Key: Am</li>
+              <li>Тип: Loop</li>
+            </ul>
+
+            <p><a href="#preview-1">Прослушать</a> · <a href="#add-1">В корзину</a></p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <header><h3>Название</h3></header>
+            <ul>
+              <li>Hip-Hop</li>
+              <li>Key: C#m</li>
+              <li>Тип: One-shot</li>
+            </ul>
+            <p><a href="#preview-2">Прослушать</a> · <a href="#add-2">В корзину</a></p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <header><h3>Название</h3></header>
+            <ul>
+              <li>BPM: 140</li>
+              <li>Key: F#</li>
+              <li>Тип: Loop</li>
+            </ul>
+            <p>
+              <a href="#preview-3">Прослушать</a>
+              <a href="#add-3">В корзину</a>
+            </p>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <header><h3>Название</h3></header>
+            <ul>
+              <li>BPM: 110</li>
+              <li>Key: Dm</li>
+              <li>Тип: One-shot</li>
+            </ul>
+              <p>
+                <a href="#preview-4">Прослушать</a>
+                <a href="#add-4">В корзину</a>
+              </p>
+          </article>
+        </li>
+      </ul>
+
+      <section id="how" aria-labelledby="how-title">
+        <h3 id="how-title">Как это работает</h3>
+        <ol>
+          <li>Найдите семпл через поиск или жанры.</li>
+          <li>Прослушайте превью и добавьте в корзину.</li>
+          <li>Выберите <em>тип лицензии</em> и оформите покупку.</li>
+          <li>Скачайте WAV и получите документы.</li>
+        </ol>
+      </section>
+    </section>
+
+<!-- Quote -->
+    <section aria-labelledby="quote-title">
+      <h2 id="quote-title">Цитата</h2>
+      <blockquote cite="https://example.org/interview">
+        «Хороший семпл — это <del>половина</del> 70% трека: он вдохновляет и задаёт направление».
+      </blockquote>
+      <p><cite>— Продюсер A. Ivanov, интервью 2024</cite></p>
+    </section>
+
+<!-- Code snippet -->
+    <section aria-labelledby="code-title">
+      <h2 id="code-title">Сниппет кода</h2>
+      <p>Пример JSON-описания семпла для экспорта каталога:</p>
+      <pre><code>{
+  "id": "smp_00123",
+  "title": "Velvet Rhodes Loop",
+  "bpm": 92,
+  "key": "C#m",
+  "genre": ["R&amp;B", "Hip-hop"],
+  "license": "standard"
+}</code></pre>
+    </section>
+
+<!-- Text block -->
+    <section id="about" aria-labelledby="about-title">
+      <article>
+        <p>
+          SampleStore помогает музыкантам и саунд-дизайнерам быстро находить нужные звуки.
+          Мы работаем с независимыми авторами и лейблами, обеспечивая <strong>честное вознаграждение</strong>.
+        </p>
+      </article>
+    </section>
+
+  </main>
+
+<!-- Footer -->
+  <footer>
+    <nav aria-label="Нижнее меню">
+      <ul>
+        <li><a id="policy" href="#policy">Политика конфиденциальности</a></li>
+        <li><a href="#terms">Пользовательское соглашение</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+    <p>Footer · © 2025 SampleStore</p>
+  </footer>
+
+</body>
+</html>
